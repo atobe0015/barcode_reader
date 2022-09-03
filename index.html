@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>バーコードリーダー</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" name="product_code" data-bind-code-reader />
+      <button data-reader-start>コードリーダーを立ち上げる</button>
+    </div>
+    <div data-live-strearm></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
